@@ -5,7 +5,8 @@ import (
 	"log"
 
 	_ "github.com/aaronland/go-uid-whosonfirst"
-	_ "github.com/aaronland/go-uid-proxy"				
+	_ "github.com/aaronland/go-uid-proxy"
+	_ "github.com/aaronland/go-pool-boltdb/v2"	
 	"github.com/aaronland/go-uid-server/app/server"		
 )
 
